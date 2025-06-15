@@ -1,0 +1,19 @@
+#include<stdio.h>
+#define MAX 5
+
+int arr[MAX];
+int main(){
+    int i;
+    printf("enter the values of the array");
+   for(i=0;i<MAX;i++){
+    scanf("%d",&arr[i]);
+    }
+    printf("The elements of the array are");
+
+    for ( i = 0; i < MAX; i++){
+
+     printf(" %d",arr[i]);
+    } 
+
+return 0;
+}
